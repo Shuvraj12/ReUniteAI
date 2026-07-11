@@ -1,0 +1,112 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+Backend/venv/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================
+# TensorFlow / PyTorch
+# ==========================
+*.ckpt
+*.pb
+*.pbtxt
+*.h5
+*.keras
+*.tflite
+*.pth
+*.pt
+*.onnx
+
+# Uncomment if you DON'T want to upload trained models
+# models/
+# weights/
+
+# ==========================
+# OpenCV Temporary Files
+# ==========================
+*.xml~
+*.yml~
+
+# ==========================
+# Java / Spring Boot
+# ==========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# ==========================
+# Node / React
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# ==========================
+# Windows
+# ==========================
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ==========================
+# Git
+# ==========================
+*.orig

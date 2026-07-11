@@ -1,0 +1,31 @@
+# TRACE Backend — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core Framework ────────────────────────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# ── Database ──────────────────────────────────────────────────────────────────
+sqlalchemy[asyncio]==2.0.35
+asyncpg==0.29.0                  # async PostgreSQL driver
+alembic==1.13.2                  # DB migrations
+
+# ── Auth & Security ───────────────────────────────────────────────────────────
+python-jose[cryptography]==3.3.0 # JWT tokens
+passlib[bcrypt]==1.7.4           # password hashing
+python-multipart==0.0.9          # file uploads
+
+# ── Validation & Config ───────────────────────────────────────────────────────
+pydantic[email]==2.9.2
+pydantic-settings==2.5.2
+
+# ── ML / Facial Recognition ───────────────────────────────────────────────────
+deepface==0.0.93                 # FaceNet, ArcFace, VGG-Face
+tf-keras==2.16.0                 # TF2 backend for DeepFace
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+aiofiles==24.1.0
+pillow==10.4.0
